@@ -1,0 +1,89 @@
+As variáveis compostas nasceram da necessidade de guardar mais de um valor numa mesma variável.
+Variável composta homogênea unidimensional é como conhecemos os vetores, pois eles guardam mais de uma informação em suas estruturas internas e para acessá-las é necessário ir rumo a uma só direção, por isso o nome de unidimensional. Ou vc vai pra frente ou pra trás em vetores.
+
+
+JÁ NAS MATRIZES....
+
+A maneira como armazenamos os dados de uma matriz é chamada de tabular isso é, COM LINHAS E COLUNAS. Quando for guardar dados de maneira tabular, use as matrizes.
+As matrizes parecem um TABULEIRO DE BATALHA NAVAL, Possui linhas e colunas com índices 0,1,2,3,4... 
+ 
+Exemplo:
+
+	       0	1	2	3
+			
+	0     |_|      |_|     |_|     |_| --> LINHA
+
+	1     |_|      |_|     |_|     |_| --> LINHA
+ 
+	2     |_|      |_|     |_|     |_| --> LINHA
+
+	3     |_|      |_|     |_|     |_| --> LINHA
+		
+	       |	|	|	|
+	       V 	V	V	V
+	     COLUNA  COLUNA   COLUNA  COLUNA
+
+
+
+Lembra da batalha naval do Bom dia e Compania? Aqui vai funcionar do mesmo jeito. Você informa a linha e a coluna que quer, aí então poderá acessar ou preencher dados na posição escolhida.
+
+Por exemplo: 
+Se você quer acessar o índice que contém o número 5:
+
+	Inteiro Matriz_numeros [4][4]
+ 
+	       0	1	2	3
+			
+	0     |_|      |_|     |_|     |_| --> LINHA
+
+	1     |_|      |_|     |_|     |_| --> LINHA
+ 
+	2     |_|      |_|     |5|     |_| --> LINHA
+
+	3     |_|      |_|     |_|     |_| --> LINHA
+		
+	       |	|	|	|
+	       V 	V	V	V
+	     COLUNA  COLUNA   COLUNA  COLUNA
+
+
+Para ACESSAR o elemento 5 FAÇÃ: 
+
+
+	-> matriz_numeros [2][2] = 5 (vá na linhas índice nº 2 com a coluna índice nº 2)
+
+	-> nome da matriz [nº da linha] [nº da coluna] = valor (para inserir valores)
+	-> escreva( nome da matriz [nº da linha] [nº da coluna])
+
+
+Nas matrizes, lembre-se sempre de que você começa informando o número de linhas. Então o PRIMEIRO ÍNDICE É A QUANTIDADE DAS LINHAS dessa variável composta.
+APÓS ISSO, você deverá INFORMAR O NÚMERO DE COLUNAS.
+
+	Exemplo: Matriz_numeros [3][5]
+	↑ Alí estou informando que quero uma matriz com 3 linhas e cinco colunas.**
+
+
+		0	1	2	3	4	5
+
+	0      |_|     |_|     |_|     |_|     |_|     |_| --> LINHA
+	
+	1      |_|     |_|     |_|     |_|     |_|     |_| --> LINHA
+	
+	2      |_|     |_|     |_|     |_|     |_|     |_| --> LINHA
+	      
+	       |	|	|	|       |	|
+	       V 	V	V	V       V	V
+	     COLUNA  COLUNA   COLUNA  COLUNA  COLUNA  COLUNA
+
+
+    Na hora da declaração, você coloca os números que quer de linhas e coluna ex: [3][5] → NÃO CONFUNDA ISSO COM OS ÍNDICES INTERNOS DE ACESSO À MATRIZ.
+    Lembre-se que os ÍNDICES COMEÇAM SEMPRE EM 0, tanto em linhas quanto em colunas.
+
+Relembrando: Sempre que for MOSTRAR / INFORMAR valores em matrizes, INFORME A LINHA E A COLUNA. Nessa ordem, ok?!
+
+
+O NOME TÉCNICO DAS MATRIZES É VARIÁVEL COMPOSTA HOMOGÊNEA MULTIDIMENSIONAL!
+Pois você precisa de mais de um índice para identificar um elemento.
+
+Assim como em vetores, os valores internos das matrizes (elementos) também são todos iguais. 
+Se você declara uma matriz de valores inteiro, só poderá usar valores inteiros dentro dela. É a mesma regra para vetores.

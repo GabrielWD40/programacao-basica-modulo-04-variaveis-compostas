@@ -1,0 +1,35 @@
+Nessa aula nós vamos aprender a gerar valores em um vetor sem que hajam números repetidos.
+
+
+Bom, no exemplo da aula nós mudamos a estrutura do 'para' e trocamos pela do 'enquanto'.
+Com isso, nós conseguimos ter um maior controle do looping porque assim o contador só gira a partir da condicional
+
+
+E falando em condicional, vamos precisar fazer uma busca sequêncial cada vez que gerarmos um número. Isso para ver se não há redundâncias e repetições de valores.Por exemplo, no primeiro looping, eu não faço nada porque não há valores, ainda. Depois do primeiro looping, nós vamos sempre comparar o valor sorteado com os índices anteriores (busca sequencial) para ver se ela ja não foi repetido. Se sim, nosso programa sorteia outro, senão, o valor é armazenado dento do índice de um vetor.
+
+
+
+	
+	//Fazendo um vetor com 20 posições sem repetições:
+		inteiro vetorzao[20], Contador = 0
+		logico achei_repetido = falso
+
+		enquanto(Contador < U.numero_elementos(vetorzao)){
+			vetorzao[Contador] = sorteia(0,30)
+			achei_repetido = falso
+
+			//início da verificação de valores repetidos:
+			para(inteiro verificador = 0; verificador < Contador; verificador ++){
+				se(vetorzao[verificador] == vetorzao[Contador]){
+					achei_repetido = verdadeiro
+					pare
+				}
+			}
+
+			//a verificação abaixo deve ser colocada sozinha, senão dá bug:
+			se(achei_repetido == falso){
+				escreva(vetorzao[Contador] + " → ")
+				U.aguarde(350)	
+				Contador ++
+			}
+		}escreva("fim!\n\n")

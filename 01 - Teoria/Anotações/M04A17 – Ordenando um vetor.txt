@@ -1,0 +1,24 @@
+Nessa aula nós vamos aprender a como colocar os elementos de um vetor em ordem crescente.
+Chamamos isso de método da bolha.
+
+Usamos o método Swap, onde precisamos de uma variável auxiliar para fazer esses ordenamentos. 
+Lembre-se do exemplo do copo passado pelo professor Gustavo, onde temos que colocar a bola do COPO 1 no COPO 2 e vice-versa.
+
+Como não podemos fazer isso ao mesmo tempo, precisamos de um copo auxiliar. 
+
+
+Então a bola do Copo 1 vai para o copo auxiliar, a bola do copo dois vai para o copo 1 e o do copo auxiliar vai para o copo dois. Exemplificando:
+
+Auxiliar = bola_copo_1
+Bola_copo_1 = Bola_copo_2
+Bola_copo_2 = Auxiliar
+
+
+
+E para fazer esse processo, nós precisamos de dois apontadores (contadores), um que contará o número principal e atual e um que está sempre um índice à frente do contador principal.
+
+Pois assim ele sempre vai comprar com o da frente e fazer a organização que nem o professor explicou.
+Ou seja, ele compara o atual com o seguinte, sempre procurando um menor valor.
+
+O contador segundário sempre começa na segunda posição e termina na última.
+Já o contador principal sempre começa primeira posição e termina na penúltima.

@@ -1,0 +1,25 @@
+Relembrando: O primeiro índice da matriz é o número de linhas e o segundo é o número de colunas.
+exemplo: matriz [4][4]
+
+Em vetores, para nós percorrermos o vetor era necessário uma estrutura de iteração "para". Apenas uma!
+Em matrízes, são necessárias duas dessas estruturas. Nós vamos aninhar as estruturas de iteração "para" um dentro do outro.
+
+A estrutura para de fora, o primeiro anel do aninhamento, contará o número de linhas. 
+Já o segundo anel do aninhamento, contará o número de colunas.
+
+
+Exemplificação do que eu acabei de falar:
+
+inteiro numeros [3][2]
+ *** 1º primeiro número de linhas.
+ *** 2º segundo número de colunas.
+
+
+ 	para(Número de linhas; Número de linhas < Quantidade de linhas totais da matriz; NÚmero de linhas){
+		para(Número de colunas; Número de colunas < Quantidade de colunas da matriz; Número de colunas ++){
+
+			//atribuindo o valor 10 em todas as posições:
+			numero[numero de linhas][numero de colunas] = 10
+		}
+	}escreva("\n")
+  

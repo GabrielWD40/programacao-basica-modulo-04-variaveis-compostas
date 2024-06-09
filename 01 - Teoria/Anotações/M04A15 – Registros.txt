@@ -1,0 +1,47 @@
+Hoje falaremos Registros. 
+
+Registros nada mais são do que variáveis compostas que guardam valores de diferentes tipos. Ou seja, ela é heterogênea.
+Nós nomeamos ela como VARIÁVEL COMPOSTA HETEROGÊNEA → REGISTRO!
+
+Por exemplo, se você quiser saber o nome, salário e a idade do seu funcionário use os REGISTROS;
+Porque ela aceita diferentes tipos de dados em sua estrutura, diferentemente das matrizes e vetores.
+
+Exemplo da aula: 
+    NOME        SALÁRIO         idade
+    JOSÉ        5.000,32          25
+
+No exemplo de cima podemos ver que conseguimos captar diferentes tipos de dados, como cadeia, inteiro e real.
+
+Algumas linguagens chama essa variável isso de LISTA ou COLEÇÃO.
+
+
+Sintaxe:
+
+    registro nome_do_registro[
+        cadeia nome, 
+        real salario,
+        inteiro idade
+    ]
+
+Os atributos dentro do registro são chamados de campos. Ou seja, ela é composta por campos, diferentemente das matrizes e vetores que eram localizadas por índices. Aqui nós nos localizamos por meio dos nomes dos campos.
+
+Para colocar valores dentro desses campos é simples, basta fazer como no exemplo abaixo:
+
+nome_do_registro[nome] = "nome_digitado"
+
+Exemplo: Criei um registro com o nome ficha
+
+registro Ficha[
+    cadeia nome, 
+    real salario,
+    inteiro idade
+]
+
+Para eu colocar um nome no campo nome basta fazer o seguinte: 
+
+    Ficha[nome] = "José (ou o nome da variável que está com o dado)"
+    Ficha[salario] = 555.542.113,00
+    Ficha[idade] = 24
+
+
+    **** SEMPRE EM COLCHETES

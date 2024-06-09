@@ -1,0 +1,6 @@
+Nessa aula vamos ver o maior e menor valor, em qual posição ele aparece e quantas vezes eles aparecem.
+
+Nessa aula é o seguinte, nós vamos fazer o que faziamos nos exercícios anteriores. 
+Quando a variável de controle for iguala 0, o índice 0 recebe o maior e menor valor automaticamente. 
+
+Depois disso, para cada vez que ele rodar o looping haverá uma estrutura de verificação que irá ver se o valor atual do Vetor é menor ou maior que os valores armazenados anteriormente.

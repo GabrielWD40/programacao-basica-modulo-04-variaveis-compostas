@@ -1,0 +1,66 @@
+Método da busca binária: 
+
+O método de busca tradicional em vetores que nós conhecíamos era o sequencial, isso é, que varria o vetor do começo ao fim.
+Mas esse método é demorado, e as vezes o elemento nem está dentro do vetor. Isso custa muito tempo!
+
+Para resolver isso, nós podemos usar a busca binária:
+
+	O primeiro passo para isso é ORDENAR OS VALORES do VETOR.
+
+O processo se chama binário porque ele trabalha com duas partes.
+Nós precisaremos ter três variáveis auxiliares.
+
+	I - Uma para o ínicio → posição inicial
+	F - Uma para o fim → posição final
+	M - E a terceira variável vai no meio (você soma valor da posição do índice final + o inicial, depois divide por dois)
+
+
+	      0  1  2  3  4  5  6  7  8
+	Vetor [] [] [] [] [] [] [] [] []
+    	       I           M            F
+
+Após isso, eu verifico se o meio é a chave que eu estou procurando, Se ela for menor que o meio, procuramos dali para trás.Se for maior, procuramos do meio para frente. Por isso chamamos de binário, pois dividimos o vetor em dois.
+
+Após fazer isso, a variável auxiliar I vai uma posição a mais que M, pois vamos começar a procurar a partir daí.
+
+
+aux_inicial = 0
+aux_final = U.numero_elementos(vetor)
+
+enquanto(aux_inicial <= aux_final){
+	aux_mediana = (aux_inicial + aux_final) / 2
+
+	//condição de igualdade:
+	se(vetor[aux_mediana] == chave){
+		achei = verdadeiro 
+		pare
+	}senao{
+	// condição se a chave for maior que a variável mediana:
+	se(chave > vetor[aux_mediana]){
+		aux_inicial = aux_mediana + 1 
+	}senao{
+		aux_final = aux_mediana - 1
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+Variáveis simples 
+	→ guardam  apenas uma informação dentro dela, dependendo do tipo primitivo dela.
+
+Variáveis compostas:
+ 	→ Guarda diversos valores dentro dela, podem ser 4, 10, 100 ou quantos você quiser.
+
+Mas como acessar os valores dentro dessa variável? 
+Por POSIÇÕES!
+A númeração das casas começa por 0, 1, 2, 3, 4...
+Chamamos esses valores de índices.
+
+
+Por exemplo:
+
+
+Eu tenho uma variável composta chamada de IDADE
+
+Idade tem os seguintes dados: 
+
+	19      20      28      40    → VALORES;
+      pos 0    pos 1   pos 2   pos 3  → ÍNDICES;
+
+
+O valor '28' está no 'índice 2' da minha variável 'IDADE'.
+
+
+
+	COMO DECLARAR UMA VARIÁVEL COMPOSTA?
+ 
+
+Você preenche com quantos índices quer entre colchetes logo depois de dar um nome a ela. 
+Por exemplo: Inteiro Idade [4]
+
+LEMBRE-SE QUE A CONTAGEM DOS ÍNDICES COMEÇAM SEMPRE EM 0, QUE NEM EM PYTHON.
+
+
+Ela é chamada de composta porque guarda mais de um valor. 
+Se eu declarar ela como inteiro, todos os índices deverão receber valores inteiros. 
+
+
+Chamamos essa variável de HOMOGÊNEA, pois todos os valores são iguais.
+Também chamamos essa variável UNIDIMENCIONAL por conta do endereçamento único dos índices.
+
+O nome técnico de uma variável composta é 
+Variável composta homogênea unidimensional (chamamos tudo isso de VETOR!)

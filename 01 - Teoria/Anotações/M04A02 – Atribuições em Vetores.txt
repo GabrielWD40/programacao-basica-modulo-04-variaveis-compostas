@@ -1,0 +1,54 @@
+Para dar valores aos índices, não podemos fazer da forma comum:
+
+inteiro idade = 31. 
+
+ISSO NÃO VAI FUNCIONAR! 
+Porque o algoritmo não saberá a posição que o 31 vai.
+
+Para isso, você tem que colocar a posição do índice que receberá esse valor. Por exemplo:
+
+Idade [2] = 31
+Aqui estamos falando que a posição 2 vai receber o valor inteio 31. É imporante lembrar que a posição 2 é a terceira posição por conta da contagem 0,1,2...
+
+Há um outro método de incluir valores as variáveis compostas, basta você informar na mesma linha todos os valores que seus índices receberão, exemplo
+
+inteiro idade [4] = {11, 15, 7, 33}
+Nesse exemplo, os 4 espaços do vetor serão preenchidos de acordo com a ordem dos valores atribuidos dentro do colchetes.
+Por exemplo: O índice 0 receberá o valor 11, o índice 1 receberá o valor 15 e assim por diante. 
+
+
+Se você tentar colocar um valor dentro de um índice que não existe, o programa vai crachar e dar erro.
+Os vetores podem sim perder valores, mas eles armazenam diversos valores. Mas se você por um acaso colocar um valor em cima de um índice já preenchido anteriormente, o valor antigo é substituído.
+
+
+Outra coisa, você deverá preencher todos os índices quando decidir declarar dessa maneira (inteiro idade [4] = {11, 15, 7, 33}) porque se não, vai dar erro.
+
+
+
+		O 'PERCUSO' NOS VETORES;
+
+   Isso aqui é quando você usa o laço de repetição "PARA";
+É a junção do que vimos no módulo passado. Basicamente aqui, armamos uma estrutura de iteração que preenchera os dados sozinhos.
+Exemplo
+
+para (c=0; c <4; c++){
+	idade [c] = 31 
+
+}
+
+Ele é chamado assim porque ele executa do início ao fim.
+
+Vamos agora aprender a como preencher manualmente e em percurso um vetor:
+
+	inteiro idade4 [4]
+	para (inteiro c = 0; c < 4; c++){
+		leia(idade4[c])
+	}
+
+Aqui, ele vai ler os dados do teclado 4 vezes e vai preencher o valor do vetor com base no valor do contador.
+
+Para você mostrar os valores digitados, você pode utilizar a mesma estrutura de iteração:
+
+para (inteiro pos = 0; pos < 4; pos ++){
+	escreva(idade4[pos], " →")
+}

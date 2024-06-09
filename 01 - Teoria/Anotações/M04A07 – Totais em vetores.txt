@@ -1,0 +1,9 @@
+Nessa aula nós vamos aprender a totalizar elementos de uma busca dentro dos Vetores.
+Vamos aprender a criar totais, nós vamos utilizar um acumulador no lugar de um contador.
+
+
+A lógica aqui é bem simples, toda a vez que o laço roda você pode colocar uma estrutura condicional que faz uma verificação se a condição que você estipulou está sendo ou não sendo satisfeita. Mediante a isso, você faz uma contagem de quando algo que vc quer aconteceu.
+
+A cada estrutura de percursi você pode colocar uma estrutura condicional que se satisfeita, irá contabilizar alguma coisa. Voce usa a estrututra de percurso para revirar o Vetor buscando o que vc precisa.
+
+

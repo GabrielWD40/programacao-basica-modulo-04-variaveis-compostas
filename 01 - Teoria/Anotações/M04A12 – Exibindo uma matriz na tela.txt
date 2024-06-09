@@ -1,0 +1,14 @@
+Nessa aula nós começamos fazendo um exemplo para o nosso programa gerar e preencher valores dentro da variável composta homogênea multidimensional (matriz), e depois aprendemos sobre algumas funções simples das matrizes como: 
+
+	-> CONTAR NÚMERO DE COLUNAS
+	-> CONTAR NÚMERO DE LINHAS
+
+E também, como mostrar essa matriz aos usuários na forma da matriz.
+Dica importante do professor: Entre as estruturas de percurso faça um escreva que pulará linha, com isso, você conseguirá mostrar a matriz como ela é. Isso é, você vai printar o tamanho dela, se o tamanho for 4x4 o software será capaz de imprimir:
+
+ 	**** 
+	**** 
+	**** 
+	**** 
+
+

@@ -1,0 +1,24 @@
+Nesse módulo de hoje, vamos ver o tamanho de um vetor.
+
+Dentro da biblioteca, podemos ir na classe útil e ir no método "número_elementos".
+Isso é importante porque quando fizermos uma estrutura de percurso, nao vamos precisar ficar procurando aonde temos que mudar o o valor de contador que automatiza o preenchimento dos índices. 	
+
+A função numero_elementos(nome do vetor) contabiliza o tamanho total desse vetor, sendo assim, você "automatiza" os percursos para que não haja mais a necessidade de você ir lá e alterar manualmente os valores toda vez que o vetor mudar de tamanho.
+
+EXEMPLO:
+
+	//apresentação de dados ao usuário:
+	escreva("\nOs números digitados foram: ")
+	/* 	Método antigo:
+	 *  		para(inteiro contador = 0; contador < 8; contador ++)
+	 *  	repare que ali nós colocamos manualmente o número	
+	 *  		
+	 *  Novo método que nunca falha, e que é menos trabalhoso:
+		para(inteiro contador = 0; contador < u.numero_elementos(idade); contador ++)
+	
+	    Repare que ali nós colocamos que tudo se repita até que o contador seja menor que o tamanho máximo do vetor.	
+	*/
+	para(inteiro contador = 0; contador < u.numero_elementos(idade); contador ++){
+		escreva(idade[contador], " → ")
+		u.aguarde(500)
+	}

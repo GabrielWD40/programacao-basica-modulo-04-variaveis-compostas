@@ -1,0 +1,33 @@
+Nessa aula nós vamos percorrer Vetores já preenchidos, vamos buscar valores dentro dele.
+Dentro dos conceitos de busca, o termo "chave" é o que estamos buscando.
+
+Nós usamos a estrutura de percurso para verificar o vetor completo. Enquanto ele não achar, ele vai chamar de 'MIS' que é quando o valor especificado não é encontrado. 
+
+PRA GRAVAR:
+
+MISS: não achou o valor especificado dentro do índice no Vetor.
+HIT: é quando você encontrou o valor específicado dentro do índice do Vetor.
+
+Existem dois tipos de busca, a busca que vai até o final do Vetor e a busca que encontra o valor e encerra-se com um "pare".
+
+
+Exemplo da aula
+	//declaração das variáveis que vamos utilizar:
+		inteiro num[8] = {2, 5, 7, 3, 2, 9, 4, 2}
+		inteiro chave
+		
+	//codificação do nosso software:
+		escreva("\nQual é a chave? ")
+		leia(chave)
+
+		//início da busca sequencial dentro do Vetor
+		para(inteiro pos = 0; pos < U.numero_elementos(num); pos++){
+			se(chave == num[pos]){
+				escreva("Encontrei a chave na posição " + pos)
+			}
+		}
+
+No exemplo acima, ele lista todas as posições aonde ele encontra o valor da chave. Mas ainda da pra melhorar com alguns exemplos do professor Gustavo. 
+Por exemplo, podemos acrescentar um variável com valor lógico que receberá verdadeiro caso haja o valor da chave num dos índices. Caso contrário ela se mantem negativa e retorna uma mensagem ao usuário informando que não há valores daquele no índice.
+
+Se você tem certeza que dentro do Vetor os valores não se repetem, você pode colocar um "pare" para quebrar o looping e o programa ficar mais rápido.

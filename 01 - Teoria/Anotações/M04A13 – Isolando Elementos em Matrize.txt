@@ -1,0 +1,30 @@
+Nessa aula vamos isolar só colunas ou só linhas.
+
+Para eu fixar uma coluna, eu tenho que variar a linha.
+E para eu fixar uma linha, eu tenho que variar uma coluna.
+
+Porque isso será importante para podermos armar uma estrutura de percurso e mostrar só uma coluna, ou só uma linha da matriz.
+
+Nós podemos fazer tudo o que fizemos com os vetores nas matrizes.
+
+
+		//Mostrando a segunda linha da matriz: 
+		escreva("\nMostrando a segunda linha da matriz: \n\n")
+		para(inteiro coluna = 0 ; coluna < U.numero_linhas(matriz) ; coluna ++){
+			escreva("\t" + matriz[1][coluna])
+			soma_segunda_linha += matriz[1][coluna]	
+		}escreva("\nSoma dos valores = " + soma_segunda_linha)
+
+
+No código acima, nós estamos faocando em mostrar somente os elementos da segunda linha. Para isso, será necessário um contador que varra os conteúdos da segunda linha coluna por coluna. Por isso é imporante a variabilidade de um para o outro dependendo do que você deseja mostrar.
+
+
+		//Mostrando a terceita coluna da matriz:
+		escreva("\n\nMostrando a terceira coluna da matriz: \n")
+		para(inteiro linha = 0; linha < U.numero_colunas(matriz); linha ++){
+			escreva("\t" + matriz[linha][2] + "\n")
+			soma_terceira_coluna += matriz[linha][2]
+		}escreva("Soma dos valores = " + soma_terceira_coluna)
+
+
+		

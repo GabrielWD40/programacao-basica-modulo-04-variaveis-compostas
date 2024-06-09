@@ -1,0 +1,16 @@
+Nessa aula, nós falamos sobre os exercícios 55, 56, 57 e 58.
+
+Proposta do exercício 55:
+O primeiro índice do vetor recebe 3, a partir daí, os números seguintes erão o dobro do anterior. Finalizando no décimo índice no valor de 1536.
+
+Proposta do exercício 56:
+É um vetor de 10 posições e vai contar de 5 em 5. Mas, você que escolhe o valor inicial. Se vc colocar 10 ele vai fazer 15... 20... e por aí vai. 
+
+Proposta do exercício 57:
+é um vetor de 10 posições que vai sortear 10 valores automaticamente e preencher cada índice. Depois, você mostra a ordem de sorteio e logo em seguida a ordem reversa. Por exemplo, a sequencia de dorterio ficou 1, 2 e 3, você mostrará 3, 2, 1.
+
+Proposta do exercício 58:
+É um vetor de 15 posições que conterá os valores da sequência de Fibonnaci até o 15º termo de forma automática.
+
+
+Lembre-se da dica do tamanho do elemento na hora de fazer a comparação dentro do Percurso nos ciclos.
